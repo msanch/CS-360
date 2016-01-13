@@ -1,23 +1,18 @@
-/* css Zen Garden default style v1.02 */
-/* css released under Creative Commons License - http://creativecommons.org/licenses/by-nc-sa/1.0/  */
-
-/* This file based on 'Tranquille' by Dave Shea */
-/* You may use this file as a foundation for any new work, but you may find it easier to start from scratch. */
-/* Not all elements are defined in this file, so you'll most likely want to refer to the xhtml as well. */
-
-/* Your images should be linked as if the CSS file sits in the same folder as the images. ie. no paths. */
-
 
 /* basic elements */
 html {
 	margin: 0;
 	padding: 0;
+	background-image: url("warriors.jpg"); 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
 	}
 body { 
 	font: 75% georgia, sans-serif;
 	line-height: 1.88889;
 	color: #555753; 
-	background: #fff url(blossoms.jpg) no-repeat bottom right; 
 	margin: 0; 
 	padding: 0;
 	}
@@ -25,11 +20,14 @@ p {
 	margin-top: 0; 
 	text-align: justify;
 	}
-h3 { 
-	font: italic normal 1.4em georgia, sans-serif;
+
+pre { 
+	font:  georgia, sans-serif;
+	font-size: 14px;
 	letter-spacing: 1px; 
 	margin-bottom: 0; 
 	color: #7D775C;
+	padding: 9.5px;
 	}
 a:link { 
 	font-weight: bold; 
@@ -64,7 +62,6 @@ abbr {
 	}
 
 header h1 { 
-	background: transparent url(h1.gif) no-repeat top left;
 	margin-top: 10px;
 	display: block;
 	width: 219px;
@@ -76,7 +73,6 @@ header h1 {
 	overflow: hidden;
 	}
 header h2 { 
-	background: transparent url(h2.gif) no-repeat top left; 
 	margin-top: 58px; 
 	margin-bottom: 40px; 
 	width: 200px; 
@@ -127,13 +123,11 @@ footer a:link, footer a:visited {
 	}
 .sidebar .wrapper { 
 	font: 10px verdana, sans-serif; 
-	background: transparent url(paper-bg.jpg) top left repeat-y; 
 	padding: 10px; 
 	margin-top: 150px; 
 	width: 130px; 
 	}
 .sidebar h3.select { 
-	background: transparent url(h3.gif) no-repeat top left; 
 	margin: 10px 0 5px 0; 
 	width: 97px; 
 	height: 16px; 
@@ -143,7 +137,6 @@ footer a:link, footer a:visited {
 	overflow: hidden;
 	}
 .sidebar h3.archives { 
-	background: transparent url(h5.gif) no-repeat top left; 
 	margin: 25px 0 5px 0; 
 	width:57px; 
 	height: 14px; 
@@ -153,7 +146,6 @@ footer a:link, footer a:visited {
 	overflow: hidden;
 	}
 .sidebar h3.resources { 
-	background: transparent url(h6.gif) no-repeat top left; 
 	margin: 25px 0 5px 0; 
 	width:63px; 
 	height: 10px; 
@@ -170,7 +162,6 @@ footer a:link, footer a:visited {
 	}
 .sidebar li {
 	line-height: 1.3em; 
-	background: transparent url(cr1.gif) no-repeat top center; 
 	display: block; 
 	padding-top: 5px; 
 	margin-bottom: 5px;
@@ -185,7 +176,6 @@ footer a:link, footer a:visited {
 
 
 .extra1 {
-	background: transparent url(cr2.gif) top left no-repeat; 
 	position: absolute; 
 	top: 40px; 
 	right: 0; 
